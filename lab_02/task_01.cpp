@@ -10,7 +10,6 @@ int main(){
 	fin.open("task_01.txt", ios::in);
 	
 	while(!fin.eof() && fin.get(c)){
-//		fin.get(c);
 		cout<<c;
 	}
 	
