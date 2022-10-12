@@ -1,0 +1,21 @@
+int main(){
+	int a, b; //comment
+	a = 5;
+	b=-10;
+	if(a==b){
+		return true;
+	}
+	else if(a >= b){
+		return true;
+	}
+	else if(a <= b){
+		return false;
+	}
+	else if(a != b){
+		return false;
+	}
+	a &= b;
+	a++;
+	--a;
+	return 0;
+}

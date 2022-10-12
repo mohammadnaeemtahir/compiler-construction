@@ -1,0 +1,8 @@
+{
+    "files.associations": {
+        "*.php": "blade",
+        "fstream": "cpp",
+        "iosfwd": "cpp",
+        "*.tcc": "cpp"
+    }
+}
